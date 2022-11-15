@@ -25,7 +25,7 @@ script:
   - docker tag udagram-frontend petekip/udagram-frontend:v4
 
 after_success:
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - echo "Kipreal@2022" | docker login -u "petekip" --password-stdin
   - docker push petekip/udagram-api-feed:v4
   - docker push petekip/udagram-reverseproxy:v4
   - docker push petekip/udagram-api-user:v4
