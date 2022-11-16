@@ -222,7 +222,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"email\":\"hello@gmail.com\",\n\t\"password\":\"fancypass\"\n}"
+							"raw": "{\n\t\"email\":\"peter.koech@gmail.com\",\n\t\"password\":\"fancypass\"\n}"
 						},
 						"url": {
 							"raw": "{{host}}/api/v0/users/auth",

@@ -2,9 +2,9 @@ apiVersion: v1
 kind: ConfigMap
 data:
   AWS_MEDIA_BUCKET: arn:aws:s3:::static.mawingu.dev
-  AWS_PROFILE: pkoech
+  #AWS_PROFILE: pkoech
   AWS_REGION: us-east-1
-  JWT_SECRET: Hello
+  JWT_SECRET: Kipkoech
   POSTGRES_DATABASE: udagram
   POSTGRES_HOST: udagram.cv4mmssfpczt.us-east-1.rds.amazonaws.com
   URL: http://localhost:8100

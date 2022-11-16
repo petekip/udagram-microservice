@@ -2,7 +2,6 @@ set_env.sh
 origin_set_env.sh
 node_modules
 node_modules/
-
 aws-secret.yaml
 env-secret.yaml
 
