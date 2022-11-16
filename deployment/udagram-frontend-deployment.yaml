@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: udagram-frontend
-          image: hakimks/udagram-frontend:v3
+          image: petekip/udagram-frontend:v4
           imagePullPolicy: Always
           resources:
             requests:

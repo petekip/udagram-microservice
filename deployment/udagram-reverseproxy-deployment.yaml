@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: udagram-reverseproxy
-          image: hakimks/udagram-reverseproxy:v3
+          image: petekip/udagram-reverseproxy:v4
           imagePullPolicy: Always 
           resources:
             requests:
