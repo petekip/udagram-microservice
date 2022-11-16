@@ -7,7 +7,7 @@ export const config = {
   'aws_region': 'us-east-1',
   'aws_profile': 'pkoech',
   'aws_media_bucket': 'aws:s3:::static.mawingu.dev',
-  'url': 'http://localhost:8100',
+  'url': '172.20.140.85',
   'jwt': {
     'secret': process.env.JWT_SECRET,
   },

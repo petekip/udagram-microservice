@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: udagram-api-feed
-          image: petekip/udagram-api-feed:v4
+          image: petekip/udagram-api-feed:v5
           imagePullPolicy: Always
           env:
             - name: URL
