@@ -1,7 +1,11 @@
-set_env.sh
-origin_set_env.sh
-node_modules
+/nbproject/
+/.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
 node_modules/
-aws-secret.yaml
-env-secret.yaml
-
+bin/
+obj/
+.vs/
